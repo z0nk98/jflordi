@@ -1,0 +1,413 @@
+<!doctype html>
+<!--
+  VIRTUAL ASSISTANT PORTFOLIO — Judy Dinaga
+  =========================================
+  Sister site to index.html (application support). Shares css/style.css and
+  js/main.js; data-variant="va" switches the colour theme. Keep va-resume.html
+  in sync when you change content here. All content is plain HTML so it is
+  readable by ATS parsers and search engines without JavaScript.
+-->
+<html lang="en" data-variant="va">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Judy Dinaga — Virtual Assistant for Admin, Data &amp; Customer Support</title>
+  <meta name="description" content="Judy Dinaga is a remote virtual assistant in Cebu, Philippines with 4+ years supporting global users at Accenture: data entry at 99%+ accuracy, inbox and ticket support, SOPs, file management and reports. Available part-time or full-time on Philippine day shift.">
+  <meta name="author" content="Judy Dinaga">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://z0nk98.github.io/jflordi/va.html">
+  <meta property="og:url" content="https://z0nk98.github.io/jflordi/va.html">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Judy Dinaga — Virtual Assistant">
+  <meta property="og:description" content="Reliable remote assistant for admin, data and customer support. 4+ years supporting global users at Accenture.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d9488'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='14' fill='white' text-anchor='middle'%3EJD%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.classList.add('js');
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Judy Dinaga",
+    "jobTitle": "Virtual Assistant",
+    "email": "mailto:judy.flor.di@gmail.com",
+    "telephone": "+63 995 840 0578",
+    "address": { "@type": "PostalAddress", "addressLocality": "Cebu City", "addressCountry": "PH" },
+    "alumniOf": "Western Mindanao State University",
+    "sameAs": ["https://www.linkedin.com/in/judy-dinaga"],
+    "knowsAbout": ["Data Entry", "Customer Support", "Inbox Management", "SOP Writing", "Document Management", "Microsoft Excel", "Google Workspace", "ServiceNow", "AI Tools"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Judy Dinaga, back to top">
+        <span class="brand-mark" aria-hidden="true">JD</span>
+        <span class="brand-name">Judy Dinaga</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#plan">Plan</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn kbd-btn" id="palette-open" type="button" aria-label="Open quick navigation (Ctrl+K)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <kbd>⌘K</kbd>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <a class="btn btn-sm btn-primary hide-sm" href="va-resume.html">Resume</a>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============================== HERO ============================== -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-text reveal">
+        <p class="status"><span class="dot" aria-hidden="true"></span>Available · part-time or full-time · Philippine day shift</p>
+        <h1 id="hero-title">
+          <span class="hero-name">Judy Dinaga</span>
+          <span class="hero-role">Virtual Assistant for Admin, Data &amp; Customer Support</span>
+        </h1>
+        <p class="lede">I spent four years at Accenture supporting users around the world: answering tickets, keeping records accurate, writing clear guides, and making sure nothing slipped through. Now I bring that same care to busy founders and small teams who need a reliable remote assistant.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#plan">Build your support plan
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="va-resume.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+            Download resume
+          </a>
+        </div>
+        <ul class="hero-meta" aria-label="Contact details">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Cebu City, Philippines · Remote</li>
+          <li><a href="mailto:judy.flor.di@gmail.com">judy.flor.di@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/judy-dinaga" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="tel:+639958400578">+63 995 840 0578</a></li>
+        </ul>
+        <p class="clock" id="clock" aria-live="off"></p>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Highlights">
+        <div class="avatar" aria-hidden="true">JD</div>
+        <dl class="stats">
+          <div><dt>Years of remote &amp; hybrid support for global users</dt><dd data-count="4" data-suffix="+">4+</dd></div>
+          <div><dt>Accuracy on data updates</dt><dd data-count="99" data-suffix="%+">99%+</dd></div>
+          <div><dt>Accenture Stellar Awards</dt><dd data-count="2">2</dd></div>
+          <div><dt>Day shift in Cebu, PH</dt><dd>UTC+8</dd></div>
+        </dl>
+        <p class="hero-card-foot">Tickets handled to SLA in <strong>ServiceNow</strong> &amp; <strong>Cherwell</strong></p>
+      </aside>
+    </section>
+
+    <!-- ============================= SERVICES ============================= -->
+    <section id="services" class="section container" aria-labelledby="services-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">01 · Services</p>
+        <h2 id="services-title">What I Can Take Off Your Plate</h2>
+        <p class="section-sub">Each service is something I already do every week in a corporate setting.</p>
+      </header>
+      <div class="services">
+        <article class="service reveal">
+          <span class="case-icon art-1" aria-hidden="true">▦</span>
+          <h3>Data entry &amp; data cleanup</h3>
+          <ul><li>Entering and updating records</li><li>Cleaning and checking spreadsheets</li><li>Catching duplicates and errors</li></ul>
+          <p class="proof"><strong>Backed by:</strong> processing business data updates at 99%+ accuracy at Accenture.</p>
+        </article>
+        <article class="service reveal">
+          <span class="case-icon art-2" aria-hidden="true">✉</span>
+          <h3>Customer &amp; inbox support</h3>
+          <ul><li>Replying to customer questions</li><li>Ticket and request tracking</li><li>Following up until it's resolved</li></ul>
+          <p class="proof"><strong>Backed by:</strong> managing support tickets for global users in ServiceNow and Cherwell, within SLA.</p>
+        </article>
+        <article class="service reveal">
+          <span class="case-icon art-3" aria-hidden="true">✎</span>
+          <h3>SOPs &amp; documentation</h3>
+          <ul><li>Step-by-step process guides</li><li>Help articles and FAQs</li><li>Templates for repeat tasks</li></ul>
+          <p class="proof"><strong>Backed by:</strong> writing process docs, support guides and knowledge base articles.</p>
+        </article>
+        <article class="service reveal">
+          <span class="case-icon art-4" aria-hidden="true">▤</span>
+          <h3>File &amp; document management</h3>
+          <ul><li>Organizing shared drives</li><li>Naming and version control</li><li>Tracking approvals</li></ul>
+          <p class="proof"><strong>Backed by:</strong> Document Controller work in Aconex, plus SharePoint and Google Drive.</p>
+        </article>
+        <article class="service reveal">
+          <span class="case-icon art-1" aria-hidden="true">▥</span>
+          <h3>Reports &amp; spreadsheets</h3>
+          <ul><li>Excel and Google Sheets reports</li><li>Simple dashboards and summaries</li><li>Pulling data from systems</li></ul>
+          <p class="proof"><strong>Backed by:</strong> building reports with Excel and SQL queries for business users.</p>
+        </article>
+        <article class="service reveal">
+          <span class="case-icon art-3" aria-hidden="true">✦</span>
+          <h3>AI-powered productivity</h3>
+          <ul><li>Faster drafts and summaries</li><li>Troubleshooting tech issues</li><li>Small tools built with AI</li></ul>
+          <p class="proof"><strong>Backed by:</strong> daily AI use for debugging and troubleshooting, and an OCI AI Foundations certification.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================== PLAN BUILDER =========================== -->
+    <section id="plan" class="section container" aria-labelledby="plan-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">02 · Try it</p>
+        <h2 id="plan-title">Build Your Support Plan</h2>
+        <p class="section-sub">Tick what you need help with. You'll see how I'd cover it, plus a message you can send me.</p>
+      </header>
+      <div class="planner reveal">
+        <form class="plan-form" id="plan-form" onsubmit="return false">
+          <fieldset>
+            <legend>What do you need help with?</legend>
+            <label class="pick"><input type="checkbox" name="svc" value="0" checked><span>Data entry &amp; data cleanup</span></label>
+            <label class="pick"><input type="checkbox" name="svc" value="1" checked><span>Customer &amp; inbox support</span></label>
+            <label class="pick"><input type="checkbox" name="svc" value="2"><span>SOPs &amp; documentation</span></label>
+            <label class="pick"><input type="checkbox" name="svc" value="3"><span>File &amp; document management</span></label>
+            <label class="pick"><input type="checkbox" name="svc" value="4"><span>Reports &amp; spreadsheets</span></label>
+            <label class="pick"><input type="checkbox" name="svc" value="5"><span>AI-powered productivity</span></label>
+          </fieldset>
+          <label class="field">
+            <span>Your business <em>(optional)</em></span>
+            <input type="text" id="plan-biz" placeholder="e.g. an online skincare shop" autocomplete="organization">
+          </label>
+        </form>
+        <div class="plan-out" aria-live="polite">
+          <div class="plan-head"><h3>Your plan</h3><span class="plan-count" id="plan-count">2 tasks</span></div>
+          <ul class="plan-list" id="plan-list">
+            <li><strong>Data entry &amp; data cleanup</strong><span>Accurate records and clean spreadsheets. I process data updates at 99%+ accuracy at Accenture.</span></li>
+            <li><strong>Customer &amp; inbox support</strong><span>Replies, ticket tracking and follow-ups until each request is resolved, done to SLA for 4+ years.</span></li>
+          </ul>
+          <label class="field">
+            <span>Message to send Judy</span>
+            <textarea id="plan-msg" rows="7" readonly></textarea>
+          </label>
+          <div class="plan-actions">
+            <button type="button" class="btn btn-ghost" id="plan-copy">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+              Copy message
+            </button>
+            <a class="btn btn-primary" id="plan-mail" href="mailto:judy.flor.di@gmail.com?subject=Virtual%20assistant%20support">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Email it to Judy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PROCESS ============================== -->
+    <section id="process" class="section container" aria-labelledby="process-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">03 · How we'd work</p>
+        <h2 id="process-title">Simple, Written Down, No Surprises</h2>
+      </header>
+      <ol class="steps steps-solo reveal">
+        <li><strong>Get clear</strong><span>We agree on tasks, priorities and what "done" looks like.</span></li>
+        <li><strong>Write it down</strong><span>I document each process so it's repeatable and easy to hand over.</span></li>
+        <li><strong>Do and track</strong><span>Tasks live in a tracker with a status you can check anytime.</span></li>
+        <li><strong>Report back</strong><span>You get a short update on what's done and what needs you.</span></li>
+      </ol>
+      <div class="tz reveal" aria-label="Time-zone overlap on Philippine day shift">
+        <div><strong>Philippines, Singapore, Hong Kong</strong><span>Same business day</span></div>
+        <div><strong>Japan, Korea, Australia</strong><span>Strong overlap</span></div>
+        <div><strong>UK &amp; Europe</strong><span>Their early morning</span></div>
+        <div><strong>Americas</strong><span>Async handoffs · US shift covered before</span></div>
+      </div>
+    </section>
+
+    <!-- ============================ EXPERIENCE ============================ -->
+    <section id="experience" class="section container" aria-labelledby="experience-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">04 · Experience</p>
+        <h2 id="experience-title">Where I've Done This Work</h2>
+      </header>
+      <ol class="timeline">
+        <li class="job reveal">
+          <div class="job-head">
+            <div>
+              <h3>Application Support Analyst</h3>
+              <p class="job-org">Accenture Inc. · Philippines (hybrid)</p>
+            </div>
+            <p class="job-dates"><time datetime="2022-06">Jun 2022</time> – Present</p>
+          </div>
+          <ul class="job-points">
+            <li>Support users across onshore and offshore teams, handling tickets from request to resolution <strong>within agreed timelines</strong>.</li>
+            <li>Process business data updates at <strong>99%+ accuracy</strong> while meeting compliance requirements.</li>
+            <li>Write and maintain process documentation, support guides and knowledge base articles.</li>
+            <li>Coordinate with business users, stakeholders and technical teams to get issues solved.</li>
+            <li>Took part in disaster recovery testing for three consecutive years.</li>
+            <li><strong>Promoted</strong> from Associate to Analyst in December 2024; two Accenture Stellar Awards in 2023.</li>
+          </ul>
+          <ul class="tags" aria-label="Tools used"><li>ServiceNow</li><li>Cherwell</li><li>Excel</li><li>SharePoint</li><li>SQL</li></ul>
+        </li>
+        <li class="job reveal">
+          <div class="job-head">
+            <div>
+              <h3>Document Controller</h3>
+              <p class="job-org">Zonepath Builders Corp.</p>
+            </div>
+            <p class="job-dates"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-10">Oct 2021</time></p>
+          </div>
+          <ul class="job-points">
+            <li>Managed engineering and construction documents in Aconex.</li>
+            <li>Coordinated project records and approval workflows.</li>
+          </ul>
+          <ul class="tags" aria-label="Tools used"><li>Aconex</li><li>Document Control</li></ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================== REVIEWS ============================== -->
+    <section id="reviews" class="section container" aria-labelledby="reviews-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">05 · Kind words</p>
+        <h2 id="reviews-title">What People I've Worked With Say</h2>
+        <p class="section-sub">Real feedback from a client and my managers at Accenture.</p>
+      </header>
+      <div class="quotes">
+        <figure class="quote quote-lg reveal">
+          <blockquote>“Despite not being overly familiar with the specific processes required to address the issue, Judy stepped up and took the initiative to research the necessary month-end processes.”</blockquote>
+          <figcaption><strong>Accounting Systems Analyst, Financial Information Systems</strong><span>US client · email to Accenture</span></figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>“I really appreciate how you always get those tickets done on time!”</blockquote>
+          <figcaption><strong>Associate Manager, Accenture Manila</strong><span>Recognition · Aug 2025</span></figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>“Judy takes full ownership of tasks and works independently. Additionally, Judy provides timely feedback on work units, which has been well-received by the business.”</blockquote>
+          <figcaption><strong>Associate Manager, Accenture US</strong><span>Performance feedback</span></figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>“Good job on being able to work with clients well during US shift and providing excellent coverage during on call shifts.”</blockquote>
+          <figcaption><strong>Senior Manager, Accenture</strong><span>Recognition · Aug 2025</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== TOOLKIT + CREDENTIALS ===================== -->
+    <section id="credentials" class="section container" aria-labelledby="credentials-title">
+      <header class="section-head reveal">
+        <p class="eyebrow">06 · Toolkit &amp; credentials</p>
+        <h2 id="credentials-title">Tools I Know &amp; Recognition</h2>
+      </header>
+      <div class="skills">
+        <div class="skill-group reveal">
+          <h3>Office &amp; Productivity</h3>
+          <ul class="tags tags-lg"><li>Google Workspace</li><li>Microsoft Excel</li><li>Word</li><li>PowerPoint</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Files &amp; Documents</h3>
+          <ul class="tags tags-lg"><li>SharePoint</li><li>Google Drive</li><li>Aconex</li><li>FileZilla</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Tickets &amp; Support</h3>
+          <ul class="tags tags-lg"><li>ServiceNow</li><li>Cherwell</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Data &amp; AI</h3>
+          <ul class="tags tags-lg"><li>AI Assistants</li><li>SQL</li><li>Remote Desktop (RDP)</li></ul>
+        </div>
+      </div>
+      <div class="edu-grid cred-gap">
+        <article class="card reveal">
+          <p class="card-kicker">Awards</p>
+          <ul class="cred-list">
+            <li><strong>Accenture Marriott Stellar Award</strong><span>Oct 2023</span></li>
+            <li><strong>Accenture AHS ATCP Stellar Award</strong><span>May 2023</span></li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <p class="card-kicker">Certifications</p>
+          <ul class="cred-list">
+            <li><strong>OCI 2025 AI Foundations Associate</strong><span>Oracle · 2025</span></li>
+            <li><strong>OCI 2025 Foundations Associate</strong><span>Oracle · 2025</span></li>
+            <li><strong>Oracle Fusion Cloud ERP Process Essentials</strong><span>Oracle · 2025</span></li>
+            <li><strong>Oracle Database SQL</strong><span>Oracle</span></li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <p class="card-kicker">Education</p>
+          <ul class="cred-list">
+            <li><strong>BS Electronics and Communications Engineering</strong><span>Western Mindanao State University · 2015 – 2020</span></li>
+            <li><strong>DOST Scholar</strong><span>Department of Science and Technology · 2015 – 2020</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section id="contact" class="section container" aria-labelledby="contact-title">
+      <div class="contact reveal">
+        <p class="eyebrow">07 · Contact</p>
+        <h2 id="contact-title">Need a dependable assistant?</h2>
+        <p class="lede">Tell me what's eating your time, and I'll tell you honestly how I can help. I'm open to part-time and full-time remote work on Philippine day shift.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary btn-lg" href="mailto:judy.flor.di@gmail.com?subject=Virtual%20assistant%20opportunity">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            judy.flor.di@gmail.com
+          </a>
+          <button class="btn btn-ghost btn-lg" type="button" data-copy="judy.flor.di@gmail.com" data-copy-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+            <span>Copy email</span>
+          </button>
+        </div>
+        <ul class="contact-links">
+          <li><a href="https://www.linkedin.com/in/judy-dinaga" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="tel:+639958400578">+63 995 840 0578</a></li>
+          <li><button type="button" class="link-btn" data-copy="+63 995 840 0578" data-copy-label="Phone number">Copy phone</button></li>
+          <li><a href="va-resume.html">Resume (PDF-ready) →</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year">2026</span> Judy Dinaga · Cebu City, Philippines</p>
+    <a href="#top" class="to-top">Back to top ↑</a>
+  </footer>
+
+  <div class="palette" id="palette" hidden>
+    <div class="palette-backdrop" data-close></div>
+    <div class="palette-box" role="dialog" aria-modal="true" aria-label="Quick navigation">
+      <div class="palette-search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="palette-input" type="text" placeholder="Jump to a section or action…" autocomplete="off"
+               role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+        <kbd>Esc</kbd>
+      </div>
+      <ul id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette-hint"><kbd>↑</kbd><kbd>↓</kbd> to move · <kbd>Enter</kbd> to select</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/va.js" defer></script>
+</body>
+</html>
